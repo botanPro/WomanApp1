@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CityCollectonViewCell" customModule="WomanApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="107" height="47"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="107" height="47"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="2DN-f5-ytR">
+                        <rect key="frame" x="0.0" y="0.0" width="107" height="37"/>
+                    </imageView>
+                    <view clipsSubviews="YES" alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9dq-ZR-FF4">
+                        <rect key="frame" x="0.0" y="0.0" width="107" height="37"/>
+                        <color key="backgroundColor" red="0.1337460577" green="0.17934575680000001" blue="0.23530247809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suleimanye" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGw-rW-d4E">
+                        <rect key="frame" x="6" y="13" width="89" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="pLW-Q6-3jB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tXf-CU-sd1">
+                        <rect key="frame" x="50.5" y="39" width="6" height="6"/>
+                        <color key="backgroundColor" red="0.61991743610000005" green="0.3396852575" blue="0.17297455789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="6" id="bYV-q4-qpe"/>
+                            <constraint firstAttribute="width" constant="6" id="tfY-Bs-wSc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="RGw-rW-d4E" secondAttribute="trailing" constant="12" id="G9s-ef-TxD"/>
+                <constraint firstItem="2DN-f5-ytR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="M6t-C4-1qI"/>
+                <constraint firstAttribute="bottom" secondItem="tXf-CU-sd1" secondAttribute="bottom" constant="2" id="Th6-Y3-Jeg"/>
+                <constraint firstItem="tXf-CU-sd1" firstAttribute="top" secondItem="9dq-ZR-FF4" secondAttribute="bottom" constant="2" id="XTX-fg-Nvc"/>
+                <constraint firstAttribute="trailing" secondItem="2DN-f5-ytR" secondAttribute="trailing" id="bnp-H2-0KL"/>
+                <constraint firstItem="2DN-f5-ytR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fBi-0D-asq"/>
+                <constraint firstItem="RGw-rW-d4E" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="6" id="gUV-cB-1Au"/>
+                <constraint firstItem="9dq-ZR-FF4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ghv-tT-xc2"/>
+                <constraint firstItem="9dq-ZR-FF4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="hHA-ne-GH4"/>
+                <constraint firstAttribute="trailing" secondItem="9dq-ZR-FF4" secondAttribute="trailing" id="hYQ-lC-cUC"/>
+                <constraint firstItem="tXf-CU-sd1" firstAttribute="top" secondItem="2DN-f5-ytR" secondAttribute="bottom" constant="2" id="iL4-Vs-7Ue"/>
+                <constraint firstItem="tXf-CU-sd1" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="xHz-Wp-uHz"/>
+                <constraint firstItem="RGw-rW-d4E" firstAttribute="centerY" secondItem="2DN-f5-ytR" secondAttribute="centerY" constant="3" id="xfx-Fe-HkG"/>
+            </constraints>
+            <size key="customSize" width="107" height="47"/>
+            <connections>
+                <outlet property="Image" destination="2DN-f5-ytR" id="LIb-X8-zA3"/>
+                <outlet property="Name" destination="RGw-rW-d4E" id="sdn-ga-MmV"/>
+                <outlet property="SelectedCellView" destination="tXf-CU-sd1" id="BPI-Pw-oiD"/>
+                <outlet property="ViewOver" destination="9dq-ZR-FF4" id="cxc-HN-ZMN"/>
+            </connections>
+            <point key="canvasLocation" x="55.797101449275367" y="111.49553571428571"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="download" width="313" height="161"/>
+    </resources>
+</document>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="113" id="KGk-i7-Jjw" customClass="ReviewsTableViewCell" customModule="WomanApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="113"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4I0-N9-JhT">
+                        <rect key="frame" x="64" y="15" width="251" height="15"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yi0-KY-RSM">
+                                <rect key="frame" x="0.0" y="0.0" width="181" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Ybr-uv-8g7"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="John Smith">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEE-6W-YdR">
+                                <rect key="frame" x="181" y="1.5" width="70" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="F8W-Up-LJi"/>
+                                    <constraint firstAttribute="width" constant="70" id="emz-E3-0ur"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="01-02-21">
+                                        <attributes>
+                                            <color key="NSColor" red="0.31638404636404177" green="0.32146779581478813" blue="0.32797757543698702" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" metaFont="miniSystem"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8u-Ec-8HQ">
+                        <rect key="frame" x="65" y="30" width="250" height="71"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <attributedString key="attributedText">
+                            <fragment>
+                                <string key="content">Lorem ipsum dolor sit er elit  vLorem ipsum dolor sit er elit Lorem ipsum dolor sit er elit Lorem ipsum dolor sit er elit Lorem ipsum dolor sit er elit  vLorem ipsum dolor sit er elit Lorem ipsum dolor sit er elit Lorem ipsum dolor sit er </string>
+                                <attributes>
+                                    <color key="NSColor" red="0.44418238461242149" green="0.49395487572742719" blue="0.56777755776548289" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" metaFont="cellTitle"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="XPM-lG-fUd">
+                        <rect key="frame" x="16" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="WMz-H9-tFa"/>
+                            <constraint firstAttribute="width" constant="40" id="Yr5-Wh-B2b"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="XPM-lG-fUd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="1Qn-9I-rLo"/>
+                    <constraint firstItem="XPM-lG-fUd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="1xh-Ap-XtI"/>
+                    <constraint firstItem="z8u-Ec-8HQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="45" id="Cvq-IY-UcR"/>
+                    <constraint firstItem="4I0-N9-JhT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="eYO-QO-8mn"/>
+                    <constraint firstItem="z8u-Ec-8HQ" firstAttribute="top" secondItem="4I0-N9-JhT" secondAttribute="bottom" id="hVz-qf-jHS"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="z8u-Ec-8HQ" secondAttribute="bottom" constant="1" id="kZi-x4-MrF"/>
+                    <constraint firstAttribute="trailing" secondItem="4I0-N9-JhT" secondAttribute="trailing" constant="25" id="ltU-jt-Z8L"/>
+                    <constraint firstItem="4I0-N9-JhT" firstAttribute="leading" secondItem="XPM-lG-fUd" secondAttribute="trailing" constant="8" symbolic="YES" id="tDp-4t-vk6"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="z8u-Ec-8HQ" secondAttribute="trailing" constant="5" id="vE5-gy-yiS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="Comment" destination="z8u-Ec-8HQ" id="kfc-8G-UsC"/>
+                <outlet property="Date" destination="zEE-6W-YdR" id="wn1-As-ZvB"/>
+                <outlet property="Imagee" destination="XPM-lG-fUd" id="y5I-8C-TVR"/>
+                <outlet property="Nmae" destination="Yi0-KY-RSM" id="93n-pX-4d5"/>
+            </connections>
+            <point key="canvasLocation" x="56.521739130434788" y="131.58482142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="1" width="600" height="400"/>
+    </resources>
+</document>
